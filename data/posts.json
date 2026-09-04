@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "first-note",
+    "title": "给未来的自己留一盏灯",
+    "date": "2026-09-04",
+    "category": "生活记录",
+    "tags": ["生活", "随笔"],
+    "excerpt": "从今天开始，把那些不想忘记的时刻写下来。",
+    "minutes": 3,
+    "cover": "assets/images/bianca-placeholder.svg"
+  },
+  {
+    "slug": "a-slow-afternoon",
+    "title": "一个很慢的下午",
+    "date": "2026-08-22",
+    "category": "日常",
+    "tags": ["日常", "咖啡"],
+    "excerpt": "阳光、咖啡和一段没有被打扰的时间。",
+    "minutes": 2,
+    "cover": "assets/images/bianca-placeholder.svg"
+  }
+]

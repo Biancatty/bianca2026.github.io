@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bianca 的个人博客，记录生活、想法与感受。">
+  <title>Bianca · Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="回到首页">
+        <span class="brand-mark">B</span>
+        <span><strong>Bianca</strong><small>notes &amp; little moments</small></span>
+      </a>
+      <button class="theme-toggle" type="button" aria-label="切换深色模式">◐</button>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="profile-card">
+          <div class="avatar">B</div>
+          <h1>Bianca</h1>
+          <p>写下生活里值得记住的片段。</p>
+        </div>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="active" href="index.html"><span>⌂</span> Home</a>
+          <a href="archive.html"><span>▤</span> Archives</a>
+          <a href="about.html"><span>♡</span> About</a>
+        </nav>
+        <div class="sidebar-footer">© <span data-year></span> Bianca</div>
+      </aside>
+
+      <main class="content">
+        <section class="hero">
+          <p class="eyebrow">A QUIET CORNER OF THE INTERNET</p>
+          <h2>你好，我是 Bianca。</h2>
+          <p>这里是我的个人空间，记录日常、旅行、阅读，以及那些还没来得及说出口的感受。</p>
+        </section>
+
+        <section class="toolbar" aria-label="文章工具">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="搜索文章、标签……"></label>
+          <a class="text-link" href="archive.html">查看全部文章 →</a>
+        </section>
+
+        <section>
+          <div class="section-heading"><h3>最近的文章</h3><span id="postCount"></span></div>
+          <div id="postList" class="post-list" aria-live="polite"></div>
+        </section>
+        <p id="emptyState" class="empty-state" hidden>没有找到相关内容。</p>
+      </main>
+    </div>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
